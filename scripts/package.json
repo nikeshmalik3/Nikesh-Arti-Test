@@ -1,0 +1,14 @@
+{
+  "name": "eduassist-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for ingesting documents into EduAssist",
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest-documents.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
